@@ -28,7 +28,7 @@
 	
 		<table>
 			<tr height="60">
-				<td align="center" colspan="3">
+				<td align="center" colspan="2">
 					<font size="6" color="gray">전체 렌트카 보기</font>
 				</td>
 			</tr>
@@ -41,7 +41,7 @@
 			for(int i = 0; i < rentcarList.size(); i++) {
 				RentcarBean bean = rentcarList.get(i);
 				
-				if(j % 3 == 0) {
+				if(j % 3 == 0) { // j % 3 의 나머지가 0일 경우, <tr>을 새로 생성
 		%>
 			<tr height="220">
 				
